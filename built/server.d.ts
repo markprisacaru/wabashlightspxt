@@ -1,0 +1,15 @@
+export declare function lookupDocFile(name: string): string;
+export declare function expandHtml(html: string): string;
+export declare function expandDocTemplateCore(template: string): string;
+export declare function expandDocFileTemplate(name: string): string;
+export interface ServeOptions {
+    localToken: string;
+    autoStart: boolean;
+    packaged?: boolean;
+    browser?: string;
+    port?: number;
+    hostname?: string;
+    wsPort?: number;
+    serial?: boolean;
+}
+export declare function serveAsync(options: ServeOptions): Promise<void>;

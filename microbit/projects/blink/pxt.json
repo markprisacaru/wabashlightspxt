@@ -1,0 +1,17 @@
+{
+    "name": "blink",
+    "version": "0.0.0",
+    "description": "blink",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
